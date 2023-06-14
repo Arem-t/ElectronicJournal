@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5sp"
+    android:animateLayoutChanges="true"
+
+    >
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        app:cardBackgroundColor="@color/back_item"
+        app:cardElevation="2dp"
+        >
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+            <ImageView
+                android:id="@+id/person_img"
+                android:layout_width="69dp"
+                android:layout_height="79dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerInParent="true"
+                android:src="@drawable/person"
+                android:layout_marginStart="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Math"
+                android:textSize="20sp"
+                android:id="@+id/person_name"
+                android:layout_margin="10dp"
+                android:textColor="@color/back_text"
+                android:layout_toEndOf="@id/person_img"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Nobel"
+                android:id="@+id/teacher"
+                android:layout_margin="10sp"
+                android:layout_below="@+id/person_name"
+                android:textColor="@color/back_text"
+                android:layout_toEndOf="@id/person_img"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_margin="10dp"
+                android:textSize="20dp"
+                android:layout_centerVertical="true"
+                android:id="@+id/class_name"
+                android:textColor="@color/back_text"
+                android:layout_toLeftOf="@id/edit_person_btn"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/edit_person_btn"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:src="@drawable/edit_person_btn"
+                android:layout_toStartOf="@id/delete_person_btn"
+                android:clickable="true"
+                />
+
+            <ImageView
+                android:id="@+id/delete_person_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="15dp"
+                android:src="@drawable/delete_person_btn"
+                android:clickable="true"
+                />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

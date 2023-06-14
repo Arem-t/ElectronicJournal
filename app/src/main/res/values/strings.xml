@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ElectronicJournal</string>
+    <string name="login_student">Войти</string>
+    <string name="register_login">Зарегестрироваться</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

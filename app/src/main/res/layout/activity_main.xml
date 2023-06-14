@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mainpic"
+        android:id="@+id/book_pic"
+        android:layout_alignParentTop="true"
+        android:layout_margin="70dp"
+        android:layout_centerInParent="true"
+        android:layout_above="@id/main_name"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/app_name"
+        android:id="@+id/main_name"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/login_student"
+        android:layout_below="@+id/main_name"
+        android:layout_marginTop="30dp"
+        android:id="@+id/btn_enter"
+        android:backgroundTint="@color/reg_btn"
+        />
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/register_login"
+        android:layout_below="@+id/btn_enter"
+        android:layout_marginTop="10dp"
+        android:id="@+id/btn_register_login"
+        android:backgroundTint="@color/reg_btn"
+
+        />
+</RelativeLayout>

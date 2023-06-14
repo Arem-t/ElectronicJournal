@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "372061548244",
+    "project_id": "electronicjournal-5607f",
+    "storage_bucket": "electronicjournal-5607f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:372061548244:android:e659f92f44f0f0587a1541",
+        "android_client_info": {
+          "package_name": "com.example.notes.electronicjournal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjzI3CBwEviLsqWs5lwPosq1PqVW5_3g8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
